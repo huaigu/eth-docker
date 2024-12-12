@@ -1,3 +1,12 @@
+# Fork from eth-docker
+## full node
+change 
+1. volume path, /var/lib/docker/voume -> /app/nodes/eth/data
+2. port 9000->9100
+
+`git clone https://github.com/huaigu/eth-docker.git && cd eth-docker`
+
+
 # Eth Docker: Docker automation for Ethereum nodes.
 
 [![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/eth-educators/eth-docker/badge)](https://www.gitpoap.io/gh/eth-educators/eth-docker)
